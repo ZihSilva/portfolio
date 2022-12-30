@@ -5,7 +5,7 @@
 
 ![Project](src/images/portfolio.png)
 
-<h4 align="center"><a href="https://zihsilvaportfolio.netlify.app/">View project here</a></h4>
+<h4 align="center"><a href="https://zimarlen-portfolio.netlify.app//">View project here</a></h4>
 
 # Responsive Portfolio
 
