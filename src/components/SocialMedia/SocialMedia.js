@@ -9,7 +9,7 @@ import {
 export function SocialMedia() {
   return (
     <div className="fixed top-[25%] sm:right-6 right-3">
-    <ul className="flex flex-col gap-6">
+    <ul className="flex flex-col ml-1 gap-6">
   
    
       <li className="relative group text-2xl sm:text-3xl bg-blue-600 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer">

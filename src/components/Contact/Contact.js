@@ -20,11 +20,11 @@ export function Contact() {
   return (
     <div
       name="contact"
-      className="bg-indigo-400 dark:bg-slate-900 py-4 dark:text-white min-h-screen max-h-full w-full flex-col flex items-center font-myfont  justify-center"
+      className="bg-blue-200 dark:bg-slate-900 py-4 dark:text-white min-h-screen max-h-full w-full flex-col flex items-center font-myfont  justify-center"
     >
-      <div className="w-72 mx-2 h-full flex flex-col justify-center sm:w-96">
+      <div className="w-44 mx-2 h-full flex flex-col justify-center sm:w-96">
         <div className="text-center mt-4 font-bold">
-          <h1 className="text-white text-2xl mt-6 sm:text-3xl border-b-4 border-indigo-600 inline">
+          <h1 className="text-stone-600 text-2xl mt-6 sm:text-3xl border-b-4 border-blue-500 inline">
             Contact Me
           </h1>
         </div>
@@ -40,7 +40,7 @@ export function Contact() {
               onChange={(event) => setFullName(event.target.value)}
               value={fullName}
               name="FullName"
-              className="w-full p-2 text-base mb-4 focus:outline-indigo-700"
+              className="w-full p-2 text-base mb-4 selection:rounded-lg focus:outline-blue-700"
               required
             />
             <label>Enter Your Email Address:</label>
@@ -49,7 +49,7 @@ export function Contact() {
               onChange={(event) => setEmail(event.target.value)}
               value={email}
               name="email"
-              className="w-full p-2  text-base mb-4 focus:outline-indigo-700"
+              className="w-full p-2  text-base mb-4 rounded-lg focus:outline-blue-700"
               required
             />
             <label>Enter Your Subject:</label>
@@ -58,7 +58,7 @@ export function Contact() {
               onChange={(event) => setSubject(event.target.value)}
               value={subject}
               name="subject"
-              className="w-full p-2 text-base mb-4 focus:outline-indigo-700"
+              className="w-full p-2 text-base mb-4 rounded-lg focus:outline-blue-700"
               required
             />
           <label>Enter Your Message:</label>
@@ -66,13 +66,13 @@ export function Contact() {
               name="message"
               onChange={(event) => setMessage(event.target.value)}
               value={message}
-              className="w-full p-2 text-base mb-4 h-40 resize-none focus:outline-indigo-700"
+              className="w-full p-2 text-base mb-4 h-40 resize-none rounded-lg focus:outline-blue-700"
               required
             ></textarea>
             <button
               type="submit"
               onSubmit={handleSubmit}
-              className="text-white w-full p-2 mb-6 bg-indigo-600  text-lg font-bold border-2 border-indigo-200 hover:bg-indigo-200 hover:border-indigo-600 hover:text-indigo-500 cursor-pointer duration-300"
+              className="text-white w-full p-2 mb-6 bg-blue-500  text-lg font-bold border-md rounded-lg border-blue-400 hover:bg-transparent hover:border-blue-600 hover:text-white cursor-pointer duration-300"
             >
               Send Message
             </button>

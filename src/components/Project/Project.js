@@ -6,11 +6,11 @@ export function Project() {
   return (
     <div
       name="project"
-      className="bg-indigo-300 dark:bg-slate-900 dark:text-white min-h-screen pb-10 pt-8 max-h-full w-full flex-col flex items-center font-myfont justify-center"
+      className="bg-blue-100 dark:bg-slate-900 dark:text-white min-h-screen px-4 pb-10 pt-8 max-h-full w-full flex-col flex items-center font-myfont justify-center"
     >
       <div className="mx-auto h-full flex flex-col justify-center">
         <div className="text-center md:text-center font-bold">
-          <h1 className="text-white text-3xl mb-6 sm:text-4xl border-b-4 border-indigo-700 inline">
+          <h1 className="text-stone-600 text-3xl mb-6 sm:text-4xl border-b-4 border-blue-500 inline">
             Projects
           </h1>
         </div>
@@ -26,9 +26,9 @@ export function Project() {
             className="aspect-video mx-16 md:h-60 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
             <div className="flex flex-col justify-center w-full h-full px-6 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <div className="relative justify-center text-md sm:text-3xl  md:p-8 sm:ml-8 text-2xl text-white font-bold">
-                <p className="ml-32">TSW</p>
-                <p className="xm:hidden text-sm pl-10 sm:text-xl font-bold text-gray-200 mt-2">
+            <div className="relative justify-center text-md  sm:text-3xl  md:p-8 h-full w-full text-white font-bold">
+              <p className="ml-10 mt-4 sm:ml-20">TSW</p>
+                <p className="invisible text-sm pl-10 sm:text-xl font-bold text-gray-200 mt-2">
                   A travel website built with React JS, JavaScript, CSS, HTML
                   and grommet.
                 </p>
@@ -39,7 +39,7 @@ export function Project() {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <button className="text-sm p-1 mt-6 ml-24 border-2 sm:p-2 sm:ml-20 sm:mt-3 border-indigo-700 bg-indigo-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-indigo-700 duration-300">
+                    <button className="invisible text-sm p-1 mt-6 ml-24 border-2 sm:p-2 sm:ml-20 sm:mt-3 border-indigo-700 bg-indigo-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-indigo-700 duration-300">
                       LIVE DEMO
                     </button>{" "}
                   </a>
@@ -58,9 +58,9 @@ export function Project() {
             className="aspect-video mx-16 md:h-60 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
             <div className="flex flex-col justify-center w-full h-full px-6 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <div className="relative justify-center text-md  sm:text-3xl  md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className="ml-20 mt-2 sm:ml-20">Tranquili-Tea</p>
-                <p className="xm:hidden text-sm px-6 sm:text-lg font-bold text-gray-200 mt-4">
+              <div className="relative justify-center text-md  sm:text-3xl  md:p-8 h-full w-full text-white font-bold">
+                <p className="ml-2 mt-4 sm:ml-20">Tranquili-Tea</p>
+                <p className="invisible text-sm px-6 sm:text-lg font-bold text-gray-200 mt-4">
                   A tea e-commerce and forum built with React JS, JavaScript,
                   axios, Node.js, Express, MongoDB and Tailwind.
                 </p>
@@ -71,7 +71,7 @@ export function Project() {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <button className="text-sm p-1 mt-10 ml-20 border-2 sm:p-2 sm:ml-20 sm:mt-3 border-indigo-700 bg-indigo-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-indigo-700 duration-300">
+                    <button className="invisible text-sm p-1 mt-6 ml-20 border-2 sm:p-2 sm:ml-20 sm:mt-3 border-indigo-700 bg-indigo-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-indigo-700 duration-300">
                       LIVE DEMO
                     </button>{" "}
                   </a>
@@ -90,9 +90,9 @@ export function Project() {
             className="aspect-video mx-16 md:h-60 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
             <div className="flex flex-col justify-center w-full h-full px-6 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
-              <div className="relative justify-center text-md  sm:text-3xl  md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className="ml-16 mt-4 sm:ml-12">LF Dance School</p>
-                <p className="xm:hidden text-sm mt-6 mx-6  sm:text-lg font-bold text-gray-200">
+              <div className="relative justify-center text-md sm:text-3xl  md:p-8 h-full w-full text-white font-bold">
+                <p className="ml-6 mt-2 sm:ml-12">LF Dance School</p>
+                <p className="invisible text-sm mt-6 mx-6  sm:text-lg font-bold text-gray-200">
                   A landing page for a dance school using React, Javascript and
                   Tailwind.
                 </p>
@@ -103,7 +103,7 @@ export function Project() {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <button className="text-sm p-1 mb-4 mt-8 ml-20 border-2 sm:p-2 sm:ml-20 sm:mt-3 border-indigo-700 bg-indigo-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-indigo-700 duration-300">
+                    <button className="text-sm p-1 mb-4 mt-6 ml-20 border-2 sm:p-2 sm:ml-20 sm:mt-3 border-indigo-700 bg-indigo-700 rounded-lg text-white font-bold uppercase hover:bg-transparent hover:text-indigo-700 duration-300">
                       LIVE DEMO
                     </button>{" "}
                   </a>

@@ -5,8 +5,8 @@ import { Link } from "react-scroll/modules";
 export function Navbar() {
   return (
     <div className="fixed top-[20%] sm:left-6 left-3">
-      <ul className="flex flex-col gap-6">
-        <li className="relative text-2xl sm:text-3xl bg-indigo-600 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
+      <ul className="flex flex-col ml-1 gap-6">
+        <li className="relative text-2xl sm:text-3xl bg-blue-500 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
           <div className="hidden lg:block absolute left-14 bottom-1 group-hover:opacity-100 duration-300 opacity-0 py-2 px-3 bg-indigo-600 rounded-full">
             <p className="text-base">Home</p>
           </div>
@@ -14,7 +14,7 @@ export function Navbar() {
             <FaHome />
           </Link>
         </li>
-        <li className="relative text-2xl sm:text-3xl bg-indigo-600 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
+        <li className="relative text-2xl sm:text-3xl bg-blue-500 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
           <div className="hidden lg:block absolute left-14 bottom-1 group-hover:opacity-100 duration-300 opacity-0 py-2 px-3 bg-indigo-600 rounded-full">
             <p className="text-base">About</p>
           </div>
@@ -22,7 +22,7 @@ export function Navbar() {
             <FaUser />
           </Link>
         </li>
-        <li className="relative text-2xl sm:text-3xl bg-indigo-600 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
+        <li className="relative text-2xl sm:text-3x  bg-blue-500 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
           <div className="hidden lg:block absolute left-14 bottom-1 group-hover:opacity-100 duration-300 opacity-0 py-2 px-3 bg-indigo-600 rounded-full">
             <p className="text-base">Projects</p>
           </div>
@@ -30,7 +30,7 @@ export function Navbar() {
             <FaAtom />
           </Link>
         </li>
-        <li className="relative text-2xl sm:text-3xl bg-indigo-600 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
+        <li className="relative text-2xl sm:text-3xl bg-blue-500 text-white p-2 rounded-full hover:scale-125 duration-300 cursor-pointer group">
           <div className="hidden lg:block absolute left-14 bottom-1 group-hover:opacity-100 duration-300 opacity-0 py-2 px-3 bg-indigo-600 rounded-full">
             <p className="text-base">Contact</p>
           </div>
