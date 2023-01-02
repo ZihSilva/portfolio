@@ -4,17 +4,17 @@ export function AboutMe() {
   return (
     <div
       name="about"
-      className="bg-blue-200 dark:bg-slate-900 dark:text-white w-full  flex-col flex items-center font-myfont "
+      className="bg-blue-200 dark:bg-slate-900 dark:text-white w-full sm:h-full  flex-col flex items-center font-myfont "
     >
       <div className="w-2/3 mx-auto h-full flex flex-col justify-center">
         <div className="text-center font-bold mt-6">
-          <h1 className="text-stone-600 text-3xl text-center border-b-4 border-blue-500 inline">
+          <h1 className="text-stone-600 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-center border-b-4 border-yellow-300 inline">
             About Me
           </h1>
         </div>
         <div className="grid md:grid-cols-2 md:gap-6 mt-5 md:pt-3">
           <div className="text-stone-500 text-xl px-4 font-bold md:text-right">
-            <p>Hi, I'm Zimarlen Silva. Welcome to my portfolio.</p>
+            <p>Welcome to my portfolio.</p>
           </div>
           <div className="text-base  md:text-lg mt-2 md:mt-0">
             <p className="px-4 pb-8 text-md md:text-md md:text-left text-stone-500">

@@ -3,7 +3,7 @@ import { HomePage } from "../HomePage/HomePage";
 import { SocialMedia } from "../SocialMedia/SocialMedia";
 import { Navbar } from "../Navbar/Navbar";
 import { AboutMe } from "../AboutMe/AboutMe";
-import { Project } from "../Project/Project";
+import Project  from "../Project/Project";
 import { Contact} from "../Contact/Contact";
 import { FaLightbulb,  FaMoon } from "react-icons/fa";
 
