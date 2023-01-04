@@ -8,7 +8,7 @@ const data = [
     title: "Grocery List",
     description:
       "This project was built using React, JavaScript, and CSS. Through the implementation of this project, I had the opportunity to enhance my understanding and application of hooks, specifically useState and useEffect",
-    tools: ["React", "Javascript and CSS", ""],
+    tools: ["React", "Javascript and CSS"],
     site: "https://thegrocerylist.netlify.app",
     repo: 'https://github.com/ZihSilva/grocery-list'
   },
