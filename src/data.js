@@ -1,8 +1,20 @@
 import imagesData from "./imagesData";
 
 const data = [
-    {
-      id: 1,
+  
+  {
+    id: 1,
+    img: imagesData.GroceryList,
+    title: "Grocery List",
+    description:
+      "This project was built using React, JavaScript, and CSS. Through the implementation of this project, I had the opportunity to enhance my understanding and application of hooks, specifically useState and useEffect",
+    tools: ["React", "Javascript and CSS", ""],
+    site: "https://thegrocerylist.netlify.app",
+    repo: 'https://github.com/ZihSilva/grocery-list'
+  },
+  
+  {
+      id: 2,
       img: imagesData.TSW,
       title: "Travel Safety for Women ",
       description:
@@ -12,7 +24,7 @@ const data = [
       repo: "https://github.com/carolineabreu/tsw",
     },
     {
-      id: 2,
+      id: 3,
       img: imagesData.Tranquili,
       title: "Tranquili-tea",
       description:
@@ -22,7 +34,7 @@ const data = [
       repo: "https://github.com/carolineabreu/Tranquili-Tea-client",
     },
     {
-      id: 3,
+      id: 4,
       img: imagesData.DanceSchool,
       title: "Leap Forward Dance School",
       description:
@@ -30,16 +42,6 @@ const data = [
       tools: ["React", "Javascript", "Tailwind CSS"],
       site: "https://leapforwarddanceschool.netlify.app/",
       repo: "https://github.com/ZihSilva/Dance-School-Lading-Page",
-    },
-    {
-      id: 4,
-      img: imagesData.GroceryList,
-      title: "Grocery List",
-      description:
-        "This project was built using React, JavaScript, and CSS. Through the implementation of this project, I had the opportunity to enhance my understanding and application of hooks, specifically useState and useEffect",
-      tools: ["React", "Javascript and CSS", ""],
-      site: "https://thegrocerylist.netlify.app",
-      repo: 'https://github.com/ZihSilva/grocery-list'
     },
   ];
   
