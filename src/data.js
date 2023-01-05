@@ -38,7 +38,7 @@ const data = [
       img: imagesData.DanceSchool,
       title: "Leap Forward Dance School",
       description:
-        "This is a landing page for a dance school that is built using React, JavaScript, and Tailwind CSS. The page is designed to be compatible with all mobile devices and features a user-friendly interface. The page is intended to provide information about the dance school, including details on the types of dance classes offered, the instructors, and any upcoming events or performances.",
+        "This is a landing page for a dance school that is built using React, JavaScript, and Tailwind CSS. The page is designed to be compatible with all mobile devices and features a user-friendly interface. The page is intended to provide information about the dance school.",
       tools: ["React", "Javascript", "Tailwind CSS"],
       site: "https://leapforwarddanceschool.netlify.app/",
       repo: "https://github.com/ZihSilva/Dance-School-Lading-Page",
