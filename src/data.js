@@ -21,7 +21,7 @@ const data = [
         "This project is a website that provides information to help women travel safely. It is built using ReactJS, HTML, CSS, JavaScript, and several libraries including Axios, ant design, material UI, and grommet. ",
       tools: ["React", "Javascript", "CSS", "Axios", "material UI"],
       site: "https://tsw.netlify.app/",
-      repo: "https://github.com/carolineabreu/tsw",
+      repo: "hhttps://github.com/ZihSilva/tsw",
     },
     {
       id: 3,
