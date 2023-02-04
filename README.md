@@ -3,7 +3,7 @@
   💻<br>Portfolio - Zimarlen Silva
 </h1>
 
-![Project](src/images/front-page.png)
+![Project](src/images/screen.png)
 
 <h4 align="center"><a href="https://zimarlen-portfolio.netlify.app//">View project here</a></h4>
 
