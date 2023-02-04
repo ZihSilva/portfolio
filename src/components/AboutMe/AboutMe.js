@@ -4,11 +4,11 @@ export function AboutMe() {
   return (
     <div
       name="about"
-      className="bg-blue-200 dark:bg-slate-900 dark:text-white w-full sm:h-full  flex-col flex items-center font-myfont "
+      className="bg-white dark:bg-slate-900 dark:text-white w-full sm:h-full flex-col flex items-center font-myfont "
     >
       <div className="w-2/3 mx-auto h-full flex flex-col justify-center">
         <div className="text-center font-bold mt-6">
-          <h1 className="text-stone-600 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-center border-b-4 border-yellow-300 inline">
+          <h1 className="text-stone-600 text-2xl sm:text-3xl md:text-4xl lg:text-6xl text-center border-b-4 border-yellow inline">
             About Me
           </h1>
         </div>
@@ -23,7 +23,7 @@ export function AboutMe() {
               education and law has equipped me with a range of soft skills,
               including problem-solving, critical thinking, and strong
               communication and interpersonal abilities. I am passionate about
-              turning my ideas into digital form and bringing them to life. 
+              turning my ideas into digital form and bringing them to life.
             </p>
           </div>
         </div>

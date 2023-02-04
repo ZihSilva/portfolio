@@ -24,14 +24,23 @@ module.exports = {
       },
       padding: {
         '1/3': '33.33333%',
-        '2/3': '66.66667%'
+        '2/3': '60.66667%'
       },
 
       fontFamily: {
         'myfont': ['Josefin Sans', 'sans-serif'],
       },
 
-    
+      colors: {
+        'blue2':'#2D489E',
+        'green': '#94AFAA',
+        'gray': '#e0e1e4',
+        'rose': '#CF8599',
+        'pink-txt': '#DD8EA4',
+        'lilac': '#8da0b8',
+        'light': '#d6d9ed',
+        'yellow':' #DDB271',
+      },
     },
   },
   plugins: [],
