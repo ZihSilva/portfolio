@@ -34,6 +34,7 @@ module.exports = {
       colors: {
         'blue2':'#2D489E',
         'green': '#94AFAA',
+        "dark-green":"#94afaa",
         'gray': '#e0e1e4',
         'rose': '#CF8599',
         'pink-txt': '#DD8EA4',
