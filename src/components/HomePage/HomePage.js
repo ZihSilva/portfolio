@@ -16,14 +16,14 @@ export function HomePage() {
           </div>
           <div className="mt-8 mx-auto text-center  sm:pl-4 sm:mt-20 md:pl-4">
             <p className="text-stone-500 text-md sm:text-lg mb-1">Hello, I'm</p>
-            <h1 className="text-yellow  text-2xl md:text-4xl lg:text-5xl mb-1 font-bold">
+            <h1 className="text-yellow text-2xl md:text-4xl lg:text-5xl mb-1 font-bold">
               Zimarlen 👋
             </h1>
             {/* <h1 className="text-yellow  text-2xl md:text-4xl lg:text-5xl mb-1 font-bold">
               Zimarlen Silva
             </h1> */}
             <p className="text-stone-500 text-sm sm:text-lg mb-1 mx-14">
-              a Front-End Web Developer specializing in React, Javascript and
+              a Front-End Web Developer specializing in React, Javascript and, Tailwind.
             </p>
             <div className="pt-6  pb-2 px-4 ml-2 mb-10 sm:mt-4 sm:px-3 md:px-4 md:py-3 md:mt-6 mt-2 cursor-pointer">
               <Link to="contact" smooth={true} duration={500}>
