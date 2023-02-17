@@ -27,15 +27,9 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 - [Tailwind](https://tailwindui.com/) - Tailwind
 
 
-## Authors
+## Author
 
 - **Zimarlen Silva** - [https://github.com/cobidev](https://github.com/ZihSilva/)
 
 
-## Acknowledgments 🎁
 
-
-
-
-​
-# portfolio

@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'xs': '320px',
+        "xs":'320',
         ...defaultTheme.screens,
         'sm':'640px',
         'md': '768px',
-      'llg': '1024px',
+      'lg': '992px',
       'xl': '1280px',
       '2xl': '1536px',
       },
@@ -19,9 +19,13 @@ module.exports = {
         '1/1':'1/1',
         '16/9':'16/9'
       },
+      corePlugins: {
+        aspectRatio: false,
+      },
       backgroundImage: {
         'hero': "url('../public/images/hero.jpg')",
       },
+     
       padding: {
         '1/3': '33.33333%',
         '2/3': '60.66667%'
@@ -44,5 +48,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio')
+  ],
 }

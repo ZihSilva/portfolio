@@ -6,8 +6,10 @@ import { AboutMe } from "../AboutMe/AboutMe";
 import Project from "../Project/Project";
 import { Contact } from "../Contact/Contact";
 import { FaLightbulb, FaMoon } from "react-icons/fa";
+import Skills from "../Skills/Skills";
 
 export function MainPage() {
+  
   const [ModeLight, setModeLight] = useState(true);
 
   let icon = ModeLight ? "BsMoonStarsFill" : "FaLightbulb";
@@ -19,7 +21,7 @@ export function MainPage() {
   return (
     <div className={ModeLight ? "light" : "dark"}>
       <div
-        className="fixed top-5 sm:right-6 right-3 text-2xl sm:text-3xl cursor-pointer"
+        className="fixed top-5 sm:right-6 right-3 text-2xl sm:text-3xl md:text-4xl cursor-pointer"
         onClick={ModeHandle}
       >
         <div className="dark:text-white-100 text-slate-600">
