@@ -17,8 +17,8 @@ function Skills() {
                     <ul className="flex flex-wrap gap-6 my-8 justify-center">
                         
                     <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
-                        <p className="flex justify-center items-center">HMTL</p>
-                            <img className="h-20 w-50 contain flex justify-center self-center" src="https://www.svgrepo.com/show/452228/html-5.svg" alt="HMTL" />
+                        <p className="flex justify-center items-center">HTML</p>
+                            <img className="h-20 w-50 contain flex justify-center self-center" src="https://www.svgrepo.com/show/452228/html-5.svg" alt="HTML" />
                         </li>
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
@@ -33,22 +33,22 @@ function Skills() {
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
                             <p className="flex justify-center items-center">React</p>
-                            <img className="h-20 w-50 flex contain  justify-center self-center" src="https://www.svgrepo.com/show/473768/react.svg" alt="react" />
+                            <img className="h-20 w-50 flex contain  justify-center self-center" src="https://www.svgrepo.com/show/473768/react.svg" alt="React" />
                         </li>
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
                             <p className="flex justify-center items-center">Github</p>
-                            <img className="h-20 w-50 contain  flex justify-center self-center" src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png" alt="react" />
+                            <img className="h-20 w-50 contain  flex justify-center self-center" src="https://seeklogo.com/images/G/github-logo-7880D80B8D-seeklogo.com.png" alt="Github" />
                         </li>
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
                             <p className="flex justify-center items-center">NodeJs</p>
-                            <img className="h-20 w-50 contain  flex justify-center self-center" src="https://www.svgrepo.com/show/503445/nodejs.svg" alt="react" />
+                            <img className="h-20 w-50 contain  flex justify-center self-center" src="https://www.svgrepo.com/show/503445/nodejs.svg" alt="NodeJs" />
                         </li>
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
                             <p className="flex justify-center items-center">MongoDb</p>
-                            <img className="h-20 w-50 contain  flex justify-center self-center" src="https://www.svgrepo.com/show/439231/mongodb.svg" alt="react" />
+                            <img className="h-20 w-50 contain  flex justify-center self-center" src="https://www.svgrepo.com/show/439231/mongodb.svg" alt="MongoDb" />
                         </li>
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
@@ -68,12 +68,12 @@ function Skills() {
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
                             <p className="flex justify-center items-center">Canva</p>
-                            <img className="h-20 w-50  contain flex justify-center self-center" src="https://seeklogo.com/images/C/canva-logo-B4BE25729A-seeklogo.com.png" alt="canva" />
+                            <img className="h-20 w-50  contain flex justify-center self-center" src="https://seeklogo.com/images/C/canva-logo-B4BE25729A-seeklogo.com.png" alt="Canva" />
                         </li>
 
                         <li className="flex-wrap transform-gpu flex-col flex justify-center  text-stone-500 text-md  bg-blue-50 p-3 rounded-20 hover:scale-125 duration-300 rounded-xl shadow-lg shadow-indigo-500/40">
                             <p className="flex justify-center items-center">Figma</p>
-                            <img className="h-20 w-50 flex justify-center self-center" src="https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png" alt="canva" />
+                            <img className="h-20 w-50 flex justify-center self-center" src="https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png" alt="Figma" />
                         </li>
                     </ul>
                 </div>
