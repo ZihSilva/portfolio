@@ -21,7 +21,7 @@ export function Contact() {
     >
       <div className="w-2/3  lg:w-10/12 px-4 h-full flex flex-col justify-center">
         <div className="text-center mt-4 font-bold">
-          <h1 className="text-stone-600 mt-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl border-b-4 border-yellow inline">
+        <h1 className="text-stone-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl border-b-4 border-yellow inline">
             Contact Me
           </h1>
         </div>

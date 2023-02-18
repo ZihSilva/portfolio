@@ -12,7 +12,7 @@ const Project = () => {
     >
       <div className="sm:w-2/3 md: w-8/12  lg:w-9/12 mx-auto h-full px-2 flex flex-col justify-center">
         <div className="text-center md:text-center font-bold">
-          <h1 className="text-stone-600 mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl border-b-4 border-yellow inline">
+        <h1 className="text-stone-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl border-b-4 border-yellow inline">
             Projects
           </h1>
           <p className="my-8 mx-2 text-stone-500 md:text-xl">
@@ -58,7 +58,7 @@ const Project = () => {
                   {project.tools.map((tool, index) => (
                     <span
                       key={index}
-                      className="m-1 md:text-xl border-b-2 max-auto rounded-lg py-2 px-2 border-slate-800  text-stone-600 text-sm cursor-pointer transition ease-in duration-300"
+                      className="m-1 md:text-xl border-2 max-auto rounded-lg py-1 px-1 border-slate-300  text-stone-600 text-sm cursor-pointer transition ease-in duration-300"
                     >
                       {tool}
                     </span>

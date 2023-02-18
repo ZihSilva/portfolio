@@ -14,15 +14,15 @@ export function HomePage() {
               className="w-1/2 sm:w-10/12 md:w-4/5 sm:ml-20 lg:w-full rounded-full justify-center object-cover h-full shadow-md ring-8 ring-slate-200 ring-offset-2 sm:rounded-full md:rounded-full lg:rounded-full"
             />
           </div>
-          <div className="mt-8 mx-auto text-center  sm:pl-4 sm:mt-20 md:pl-4 lg:ml-10">
-            <p className="text-stone-500 text-lg sm:text-lg sm:mt-10 md:text-lg md:mt-0 mb-1 lg:text-3xl">Hello, I'm</p>
+          <div className="mt-8 mx-auto text-center sm:pl-4 sm:mt-20 md:mb-10 md:pl-4 lg:ml-10">
+            <p className="text-stone-500 text-md sm:text-xl sm:mt-10 md:text-lg md:mt-0 mb-1 lg:text-3xl">Hello, I'm</p>
             <h1 className="text-yellow ml-3 text-3xl sm:text-3xl md:text-4xl lg:text-6xl mb-1 font-bold">
               Zimarlen 👋
             </h1>
-            <p className="text-stone-500 text-md mx-2 sm:text-xl md:text-2xl mb-1 lg:text-3xl lg:mx-auto">
+            <p className="text-stone-500 text-md mx-2 sm:text-xl md:text-lgl mb-1 lg:text-3xl lg:mx-auto">
               a Front-End Web Developer specializing in React, Javascript and, Tailwind.
             </p>
-            <div className="pt-6  pb-2 px-4 ml-2 mb-10 sm:mt-4 sm:px-3 md:px-4 md:py-3 md:mt-6 mt-2  cursor-pointer">
+            <div className="pt-6 pb-2 px-4 ml-2 mb-10  sm:px-3 md:px-4 md:py-3 md:mt-6 lg:pt-8   cursor-pointer">
               <Link to="contact" smooth={true} duration={500}>
                 <Button />
               </Link>
