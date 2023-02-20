@@ -5,9 +5,9 @@
 
 ![Project](src/images/screen.png)
 
-
-![VIEW PROJECT HERE](https://zimarlen-portfolio.netlify.app/)
-
+<h4 align="center">
+View project here-(https://zimarlen-portfolio.netlify.app/)
+</h4>
 
 # Responsive Portfolio
 
@@ -31,7 +31,7 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 
 ## Author
 
-- **Zimarlen Silva** - [https://github.com/cobidev](https://github.com/ZihSilva/)
+- **Zimarlen Silva** - [https://github.com/ZihSilva/]
 
 
 
