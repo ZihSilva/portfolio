@@ -10,7 +10,8 @@
 
 <br>
 <h2 align="center"> :file_folder: View project here </h2>
-<p> (https://zimarlen-portfolio.netlify.app/) </p>
+<p align="center">(https://zimarlen-portfolio.netlify.app/) 
+</p>
 <br>
 
 # Responsive Portfolio
