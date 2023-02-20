@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  💻 (https://zimarlen-portfolio.netlifyapp/)<br>Portfolio - Zimarlen Silva 
+  💻 <br [Portfolio - Zimarlen Silva] (https://zimarlen-portfolio.netlifyapp/)
 </h1>
 
 ![Project](src/images/screen.png)
