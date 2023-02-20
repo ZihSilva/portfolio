@@ -1,12 +1,13 @@
 
 <h1 align="center">
-  💻 <br [Portfolio - Zimarlen Silva] (https://zimarlen-portfolio.netlifyapp/)
+  💻 [Portfolio - Zimarlen Silva]
+   (https://zimarlen-portfolio.netlifyapp/)
 </h1>
 
 ![Project](src/images/screen.png)
 
 <h4 align="center">
-<Link href=(https://zimarlen-portfolio.netlifyapp/)>View project here</Link>
+[View project here] (https://zimarlen-portfolio.netlifyapp/)
 </h4>
 
 # Responsive Portfolio
