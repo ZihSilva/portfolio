@@ -1,14 +1,13 @@
 
 <h1 align="center">
-  💻 [Portfolio - Zimarlen Silva]
-   (https://zimarlen-portfolio.netlifyapp/)
+  💻 <br> Portfolio - Zimarlen Silva
 </h1>
 
 ![Project](src/images/screen.png)
 
-<h4 align="center">
-[View project here] (https://zimarlen-portfolio.netlifyapp/)
-</h4>
+
+![VIEW PROJECT HERE](https://zimarlen-portfolio.netlify.app/)
+
 
 # Responsive Portfolio
 
