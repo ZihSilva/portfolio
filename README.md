@@ -5,9 +5,9 @@
 
 ![Project](src/images/screen.png)
 
-<h4 align="center">
-View project here-(https://zimarlen-portfolio.netlify.app/)
-</h4>
+
+[View project here](https://zimarlen-portfolio.netlify.app/)
+
 
 # Responsive Portfolio
 
@@ -24,14 +24,14 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 
 ## Technologies used 🛠️
 
-- [React](https://reactjs.org/) 
-- [Javascript](https://www.javascript.com/) - JAVASCRIPT
+- [React](https://reactjs.org/)- React 
+- [Javascript](https://www.javascript.com/) - Javascript
 - [Tailwind](https://tailwindui.com/) - Tailwind
 
 
 ## Author
 
-- **Zimarlen Silva** - [https://github.com/ZihSilva/]
+- [**Zimarlen Silva**](https://github.com/ZihSilva/)
 
 
 
