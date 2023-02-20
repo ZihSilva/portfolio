@@ -6,8 +6,12 @@
 ![Project](src/images/screen.png)
 
 
-[View project here](https://zimarlen-portfolio.netlify.app/)
 
+
+<br>
+<h2 align="center"> :file_folder: View project here </h2>
+<p> (https://zimarlen-portfolio.netlify.app/) </p>
+<br>
 
 # Responsive Portfolio
 
