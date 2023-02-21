@@ -6,7 +6,6 @@ import { AboutMe } from "../AboutMe/AboutMe";
 import Project from "../Project/Project";
 import { Contact } from "../Contact/Contact";
 import { FaLightbulb, FaMoon } from "react-icons/fa";
-import Skills from "../Skills/Skills";
 
 export function MainPage() {
   

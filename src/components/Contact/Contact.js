@@ -17,7 +17,7 @@ export function Contact() {
   return (
     <div
       name="contact"
-      className="bg-white dark:bg-slate-900 py-4 dark:text-white w-full h-auto flex-col flex items-center font-myfont  justify-center"
+      className="bg-white dark:bg-slate-700 py-4 dark:text-white w-full h-auto flex-col flex items-center font-myfont  justify-center"
     >
       <div className="w-2/3  lg:w-10/12 px-4 h-full flex flex-col justify-center">
         <div className="text-center mt-4 font-bold">
@@ -69,7 +69,7 @@ export function Contact() {
             <button
               type="submit"
               onSubmit={handleSubmit}
-              className="text-white w-full h-12 p-1 mb-6 mt-6 bg-rose text-lg font-bold border-md rounded-lg  border-slate-600 focus:outline-slate-400 hover:border-slate-400 hover:text-white cursor-pointer duration-300"
+              className="text-slate-600 w-full h-12 p-1 mb-6 mt-6 bg-blue-50 text-lg font-bold border-md rounded-lg  border-slate-600 focus:outline-slate-400 hover:border-slate-400 hover:text-slate-900 cursor-pointer duration-300"
             >
               Send Message
             </button>
