@@ -4,7 +4,7 @@ export function AboutMe() {
   return (
     <div
       name="about"
-      className="bg-white dark:bg-slate-600 dark:text-white flex w-full justify-center flex-col items-center "
+      className="bg-white dark:bg-slate-800 dark:text-white flex w-full justify-center flex-col items-center "
     >
       <div className="w-2/3 sm:w-3/5 lg:w-8/12 mt-10 flex flex-col justify-center">
         <div className="text-center font-bold">

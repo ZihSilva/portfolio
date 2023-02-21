@@ -6,7 +6,7 @@ function Skills() {
 
             <div
                 name="skills"
-                className="bg-white dark:bg-slate-600 pb-4 dark:text-white w-full flex flex-wrap items-center font-myfont  justify-center"
+                className="bg-white dark:bg-slate-800 pb-4 dark:text-white w-full flex flex-wrap items-center font-myfont  justify-center"
             >
                 <div className="w-2/3 sm:3/5 md:w-9/12  lg:w-9/12 lg:gap-x-8 px-2 flex flex-col md:flex-wrap justify-center">
                     <div className="text-center mt-2 font-bold">
