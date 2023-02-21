@@ -33,6 +33,7 @@ module.exports = {
 
       fontFamily: {
         'myfont': ['Josefin Sans', 'sans-serif'],
+        'serif':['Gloock', 'serif']
       },
 
       colors: {
@@ -49,6 +50,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/aspect-ratio')
+    require('@tailwindcss/aspect-ratio'),
+
   ],
 }

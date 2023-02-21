@@ -12,7 +12,7 @@ const Project = () => {
     >
       <div className="sm:w-2/3 md: w-8/12  lg:w-9/12 mx-auto h-full px-2 flex flex-col justify-center">
         <div className="text-center md:text-center font-bold">
-        <h1 className="text-stone-600 text-2xl sm:text-3xl md:text-4xl lg:text-5xl border-b-4 border-yellow inline">
+        <h1 className="text-stone-500 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
             Projects
           </h1>
           <p className="my-8 mx-2 text-stone-500 md:text-xl">
