@@ -12,13 +12,13 @@ export function AboutMe() {
             About Me
           </h1>
         </div>
-        <div className="grid sm:ml-3  md:gap-2 mt-8 md:pt-3 ">
+        <div className="grid sm:ml-3 md:gap-2 mt-6 md:pt-3 ">
           <div className="text-stone-500 dark:text-white md:flex-cols-2 px-6 pb-2 text-md sm:text-lg md:text-xl lg:text-2xl "></div>
-          <div className="relative animate-bounce bg-blue-50 rounded border h-10 w-2/5 sm:w-28 ml-3 lg:ml-6">
+          <div className="relative animate-bounce bg-rose rounded border h-10 w-2/5 sm:w-28 ml-3 lg:ml-20">
             <span className="flex  justify-center mt-1 text-stone-800 text-xl sm:text-2xl">
               hello.
             </span>
-            <div className="left-[39px] absolute bg-blue-50 bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-4 h-4  border-r border-b border-yellow-500"></div>
+            <div className="left-[39px] absolute bg-rose bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-5 h-5  border-r border-b border-yellow-500"></div>
           </div>
 
           <div className="px-2  pt-6 lg:px-6 lg:pt-8 pb-8 text-stone-500">
