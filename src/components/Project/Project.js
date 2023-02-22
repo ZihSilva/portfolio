@@ -12,10 +12,10 @@ const Project = () => {
     >
       <div className="sm:w-2/3 md: w-9/12  lg:w-9/12 mx-auto h-full px-2 flex flex-col justify-center">
         <div className="text-center md:text-center font-bold">
-        <h1 className="text-stone-500 dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+        <h1 className="text-slate-600 dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
             Projects
           </h1>
-          <p className="my-8 mx-2 dark:text-white text-stone-500 md:text-xl">
+          <p className="my-8 mx-2 dark:text-white text-slate-500 md:text-xl">
             Check out some of the personal projects I have been working on
             lately. For a complete list, visit my
             <a
@@ -42,7 +42,7 @@ const Project = () => {
                   src={project.img}
                   alt="/"
                 />
-                <h3 className="text-xl  dark:text-white max-auto md:text-2xl  lg:text-4xl  tracking-wide font-normal py-2 text-stone-600">
+                <h3 className="text-xl  dark:text-white max-auto md:text-2xl  lg:text-4xl  tracking-wide font-normal py-2 text-slate-600">
                   {project.title}
                   <a
                     href={project.site}
@@ -58,7 +58,7 @@ const Project = () => {
                   {project.tools.map((tool, index) => (
                     <span
                       key={index}
-                      className="m-1 dark:text-white md:text-xl  max-auto rounded-lg py-1 px-1  text-stone-600 text-sm cursor-pointer transition ease-in duration-300"
+                      className="m-1 dark:text-white md:text-xl  max-auto rounded-lg py-1 px-1  text-slate-600 text-sm cursor-pointer transition ease-in duration-300"
                     >
                       {tool}
                     </span>

@@ -23,7 +23,7 @@ export function MainPage() {
         className="fixed top-5 sm:right-6 right-3 text-2xl sm:text-3xl md:text-4xl cursor-pointer"
         onClick={ModeHandle}
       >
-        <div className="dark:text-white-100 text-slate-600">
+        <div className="dark:text-white-100 text-slate-400">
           <FaMoon className={ModeLight ? "block" : "hidden"} />
           <FaLightbulb className={ModeLight ? "hidden" : "block"} />
         </div>
