@@ -69,7 +69,7 @@ export function Contact() {
             <button
               type="submit"
               onSubmit={handleSubmit}
-              className="text-slate-600 w-full h-12 p-1 mb-6 mt-6 bg-blue-50 text-lg font-bold border-md rounded-lg  border-slate-600 focus:outline-slate-400 hover:border-slate-400 hover:text-slate-900 cursor-pointer duration-300"
+              className="text-white w-full h-12 p-1 mb-6 mt-6 bg-rose text-lg font-bold border-md rounded-lg  border-slate-600 focus:outline-slate-400 hover:border-slate-400 hover:text-slate-900 cursor-pointer duration-300"
             >
               Send Message
             </button>

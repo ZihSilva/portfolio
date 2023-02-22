@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export function HomePage() {
   return (
-    <div className="bg-white dark:bg-slate-900 dark:text-white grid w-90% h-fit m-auto flex-col  items-center font-myfont">
+    <div className="bg-white dark:bg-slate-900 dark:text-white grid w-90% h-screen m-auto flex-col  items-center font-myfont">
       <div className="w-2/3 sm:w-4/5 lg:w-9/12 mx-auto flex justify-center items-center flex-row md:mt-6">
         <div className="sm:flex gap-2 items-center ">
           <div className="flex justify-center mx-auto mt-20px my-8 flex-grow">
