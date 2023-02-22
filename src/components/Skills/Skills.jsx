@@ -9,12 +9,12 @@ function Skills() {
                 className="bg-white dark:bg-slate-900 pb-4 dark:text-white w-full flex flex-wrap items-center font-myfont  justify-center"
             >
                 <div className="w-2/3 sm:3/5 md:w-9/12 lg:w-10/12 xl:w-full  lg:gap-x-4 px-2 flex flex-col md:flex-wrap justify-center">
-                    <div className="text-center mt-6 font-bold">
+                    <div className="text-center mt-8 font-bold">
                         <h1 className="text-slate-600 dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
                             Skills
                         </h1>
                     </div>
-                    <ul className="grid grid-cols-2 sm:grid-cols-6  gap-x-2 w-50% mt-8">
+                    <ul className="grid grid-cols-3 gap-x-14 sm:grid-cols-6  gap-x-2 w-50% mt-8">
 
                         <li className="flex-wrap space-around w-full text-center m-3 flex-col flex justify-center  text-slate-500 text-md">
                             <img className="h-12 flex justify-center self-center" src="https://www.svgrepo.com/show/452228/html-5.svg" alt="HTML" />
