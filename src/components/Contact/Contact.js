@@ -17,11 +17,11 @@ export function Contact() {
   return (
     <div
       name="contact"
-      className="bg-white dark:bg-slate-800 py-4 dark:text-white w-full h-auto flex-col flex items-center font-myfont  justify-center"
+      className="bg-white dark:bg-slate-900 py-4 dark:text-white w-full h-auto flex-col flex items-center font-myfont  justify-center"
     >
-      <div className="w-2/3  lg:w-10/12 px-4 h-full flex flex-col justify-center">
+      <div className="w-2/3  lg:w-9/12 px-4 h-full flex flex-col justify-center">
         <div className="text-center mt-4 font-bold">
-        <h1 className="text-stone-500 text-2xl sm:text-3xl md:text-4xl lg:text-5x">
+        <h1 className="text-stone-500  dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5x">
             Contact Me
           </h1>
         </div>

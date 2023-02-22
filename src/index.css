@@ -3,17 +3,15 @@
 @tailwind utilities;
 
 @layer base {
-    h2 {
-        font-family: 'Gloock', 'serif';
-    }
 
-    h4 {
+
+    h4,  {
         font-family: 'Satisfy', cursive;
     }
 
-    h5 {font-family: 'Nixie One', cursive;}
+  h5,  {font-family: 'Nixie One', cursive;}
 
- p, span{ font-family: 'Nunito', sans-serif;}
+ p, span { font-family: 'Nunito', sans-serif;}
 
 
 }

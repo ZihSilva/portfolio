@@ -4,9 +4,9 @@ export function AboutMe() {
   return (
     <div
       name="about"
-      className="bg-white dark:bg-slate-800 dark:text-white flex w-full justify-center flex-col items-center "
+      className="bg-white dark:bg-slate-900 dark:text-white flex w-full justify-center flex-col items-center "
     >
-      <div className="w-2/3 sm:w-3/5 lg:w-8/12 mt-10 flex flex-col justify-center">
+      <div className="w-2/3 sm:w-3/5 lg:w-9/12 mt-10 flex flex-col justify-center">
         <div className="text-center font-bold">
           <h1 className="text-stone-500 dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
             About Me
@@ -22,26 +22,27 @@ export function AboutMe() {
           </div>
 
           <div className="px-2  pt-6 lg:px-6 lg:pt-8 pb-8 text-stone-500">
-            <h2 className=" text-green-500 dark:text-white ml-2 lg:ml-10 text-2xl sm:text-2xl md:text-3xl lg:text-4xl">
+            <h2 className=" dark:text-white ml-2 lg:ml-14 text-2xl  md:text-3xl lg:text-4xl font-semibold">
               I am Zimarlen, a front-end web developer.
             </h2>
-
-            <p className="font-light dark:text-white mt-8 text-lg lg:px-14">
-              I specialize in creating beautiful, usable, and professional
+<div block>
+            <p className="font-light dark:text-white mt-8 text-lg lg:px-14 lg:text-xl lg:mt-4">
+              I specialize in creating <span className="text-xl text-blue-700">beautiful, usable, and  </span> 
               websites. A year ago I made a career transition from teaching in a
               lively preschool to becoming a web developer. I'm thrilled to be
               working in an industry that marries my two passions: logic and
               creative design.
             </p>
-            <p className="font-light dark:text-white text-lg mt-4 lg:px-14">
-              Today, I'm proficient in <strong className="text-normal text-amber-500">HTML, CSS, JavaScript, React, and
-              Tailwind,</strong> and I'm always eager to learn more. 
+            <p className="font-light dark:text-white text-lg mt-4 lg:text-xl lg:px-14">
+              Today, I'm proficient in <span className="text-normal text-blue-700">HTML, CSS, JavaScript, React, and
+              Tailwind,</span> and I'm always eager to learn more. 
               <p>When I'm not coding, I love being in nature and I'm also a big fan of mindfulness
               practices like yoga and meditation, as well as diverse music
               genres.</p>
               <p>I'm always looking for creative people to vibe with, let's
               connect through my social channels.</p> 
             </p>
+            </div>
           </div>
         </div>
       </div>

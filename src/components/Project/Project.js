@@ -8,9 +8,9 @@ const Project = () => {
   return (
     <section
       name="project"
-      className="bg-blue-50 dark:bg-slate-900 dark:text-white max-h-full py-6 px-3 w-full flex-col flex items-center font-myfont justify-center"
+      className="bg-white dark:bg-slate-900 dark:text-white max-h-full py-6 px-3 w-full flex-col flex items-center font-myfont justify-center"
     >
-      <div className="sm:w-2/3 md: w-8/12  lg:w-9/12 mx-auto h-full px-2 flex flex-col justify-center">
+      <div className="sm:w-2/3 md: w-9/12  lg:w-9/12 mx-auto h-full px-2 flex flex-col justify-center">
         <div className="text-center md:text-center font-bold">
         <h1 className="text-stone-500 dark:text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
             Projects
@@ -42,7 +42,7 @@ const Project = () => {
                   src={project.img}
                   alt="/"
                 />
-                <h3 className="text-xl  dark:text-white max-auto md:text-2xl  lg:text-4xl  tracking-wide font-semibold py-2 text-stone-600">
+                <h3 className="text-xl  dark:text-white max-auto md:text-2xl  lg:text-4xl  tracking-wide font-normal py-2 text-stone-600">
                   {project.title}
                   <a
                     href={project.site}
