@@ -38,7 +38,7 @@ const Project = () => {
             return (
               <div key={project.id} className="w-auto">
                 <img
-                  className="rounded-xl mb-7 transform group-hover:scale-105 transition ease-out duration-300 group shadow-lg overflow-hidden shadow-indigo-500/40 drop-shadow-2xl"
+                  className="rounded-xl mb-7 transform group-hover:scale-105 transition ease-out duration-300 group shadow-md overflow-hidden shadow-indigo-500/40 drop-shadow-2xl"
                   src={project.img}
                   alt="/"
                 />

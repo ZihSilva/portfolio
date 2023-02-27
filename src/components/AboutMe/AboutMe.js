@@ -21,10 +21,7 @@ export function AboutMe() {
             <div className="left-[39px] absolute bg-slate-600 bottom-0 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-5 h-5  border-r border-b border-yellow-500"></div>
           </div>
            
-
-          
-
-          <div className="px-3  pt-6 lg:px-6 lg:pt-8 pb-8 text-slate-600">
+          <div className="px-3 pt-6 lg:px-6 lg:pt-8 pb-8 text-slate-600">
             <h2 className=" dark:text-white ml-2 lg:ml-14 text-2xl  md:text-3xl lg:text-4xl font-semibold">
               I'm Zimarlen, a front-end web developer.
             </h2>
