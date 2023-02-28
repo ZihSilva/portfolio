@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <section
       name="project"
-      className="bg-white dark:bg-slate-900 dark:text-white max-h-full py-10 px-3 w-full flex-col flex items-center font-myfont justify-center"
+      className="bg-beige dark:bg-slate-900 dark:text-white max-h-full py-10 px-3 w-full flex-col flex items-center font-myfont justify-center"
     >
       <div className="sm:w-2/3 md: w-9/12  lg:w-9/12 mx-auto h-full px-2 flex flex-col justify-center">
         <div className="text-center md:text-center font-bold">

@@ -31,21 +31,22 @@ module.exports = {
         '2/3': '60.66667%'
       },
 
-      fontFamily: {
-        'myfont': ['Josefin Sans', 'sans-serif'],
-        'serif':['Gloock', 'serif']
-      },
+   
 
       colors: {
-        'blue2':'#2D489E',
+        'blue2':'#ABA8A9',
         'green': '#94AFAA',
-        "dark-green":"#94afaa",
-        'gray': '#e0e1e4',
-        'rose': '#CF8599',
-        'pink-txt': '#DD8EA4',
-        'lilac': '#8da0b8',
-        'light': '#d6d9ed',
-        'yellow':' #DDB271',
+        "lime":"#ebf6d6",
+        'gray': '#a84b62',
+        'green': '#779682',
+        'rose': '#c2828f',
+        'moon': '#ebf6d6',
+        'midnight':"#003442",
+        'beige':"#dedcd7",
+        'dark':"#333333",
+        'ring':"#aba89e",
+        "blue-200":"#52949e"
+      
       },
     },
   },
