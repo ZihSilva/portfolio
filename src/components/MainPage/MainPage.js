@@ -24,8 +24,8 @@ export function MainPage() {
         onClick={ModeHandle}
       >
         <div className="dark:text-white-100 text-dark  dark:text-white">
-          <FaMoon className={ModeLight ? "block" : "hidden"} />
-          <FaLightbulb className={ModeLight ? "hidden" : "block"} />
+          <FaMoon className={icon ? "block" : "hidden"} />
+          <FaLightbulb className={icon ? "hidden" : "block"} />
         </div>
       </div>
       <Navbar />
