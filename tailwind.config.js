@@ -31,8 +31,6 @@ module.exports = {
         '2/3': '60.66667%'
       },
 
-   
-
       colors: {
         'blue2':'#ABA8A9',
         'green': '#94AFAA',
@@ -54,4 +52,5 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
 
   ],
+  enabled: process.env.NODE_ENV === "production"
 }
